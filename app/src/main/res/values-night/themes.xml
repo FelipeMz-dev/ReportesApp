@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Registros" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_app</item>
+        <item name="colorPrimaryVariant">@color/color_app</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_app</item>
+        <item name="colorSecondaryVariant">@color/color_app</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="tabStyle">@style/tabStyleApp</item>
+    </style>
+    <style name="tabStyleApp">
+        <item name="android:background">?attr/colorPrimaryVariant</item>
+        <item name="tabTextColor">@color/color_app_light</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="android:elevation">5dp</item>
+    </style>
+</resources>
