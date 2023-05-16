@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_app">#FF018786</color>
-    <color name="black">#212121</color>
+    <color name="black">#000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="color_app_light">#B2DFDB</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#D92121</color>
+    <color name="blue">#215ED9</color>
+    <color name="color_app">#FF018786</color>
+    <color name="color_app_light">#A2CCC8</color>
+    <color name="color_app_night">#242C30</color>
+    <color name="color_app_night_light">#A3A3A3</color>
+    <color name="foreground_card_disable">#66999999</color>
+    <color name="foreground_card_enable">#00000000</color>
+    <!--palette color list-->
+    <color name="color1">#45996C</color>
+    <color name="color2">#DFAB26</color>
+    <color name="color3">#F76031</color>
+    <color name="color4">#DE2F52</color>
+    <color name="color5">#10A3A3</color>
+    <color name="color6">#7A50A1</color>
+    <color name="color7">#CC5AA6</color>
+    <color name="color8">#76B347</color>
+    <color name="color9">#3D55AD</color>
+
 </resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemProductEdit"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:iconTint="#2B65D9"
+        android:title="@string/strEdit" />
+    <item
+        android:id="@+id/itemProductDelete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:iconTint="#D92B2B"
+        android:title="@string/strDelete" />
+</menu>

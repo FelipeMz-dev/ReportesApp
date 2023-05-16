@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutItemTypeProduct"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtItemTypeProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_margin="4dp"
+        android:text="@string/strSelectColorType"
+        android:visibility="gone"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/background_edit_text"
+        android:backgroundTint="@color/green"/>
+
+    <include layout="@layout/products_card"/>
+
+</LinearLayout>

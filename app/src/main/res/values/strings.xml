@@ -1,6 +1,37 @@
 <resources>
-    <string name="app_name">Registros</string>
+    <string name="app_name">RegistrosApp</string>
+    <string name="add_product">Registrar Producto</string>
     <string name="strProducts">Productos</string>
     <string name="strSales">Ventas</string>
     <string name="strReports">Reportes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="strPrice">PRECIO:</string>
+    <string name="strCode">CODIGO:</string>
+    <string name="strNameProduct">NOMBRE DEL PRODUCTO:</string>
+    <string name="hint_name_product">Eje. Gaseosa litro</string>
+    <string name="strDetails">DETALLES:</string>
+    <string name="hint_details">Escribe aqui la informacion que veas necesaria</string>
+    <string name="strIcon">ICONO:</string>
+    <string name="strAutoCode">Auto</string>
+    <string name="strRegisterProduct">Registrar</string>
+    <string name="strUpdateProduct">Actializar</string>
+    <string name="strCheckBoxProduct">Producto Habilitado</string>
+    <string name="txtEmoji">🆕</string>
+    <string name="search">Search</string>
+    <string name="menu_create_type">Crear Tipo de producto</string>
+    <string name="createTypeListTypeProducts">Lista de tipos de productos</string>
+    <string name="hintNameNewTypeProduct">Nombre del tipo de producto</string>
+    <string name="strSelectColorType">Seleccionar Color</string>
+    <string name="strSumListTypeProducts">Sumar a la lista</string>
+    <string name="strEdit">Editar</string>
+    <string name="strDelete">Eliminar</string>
+    <string-array name="spinner">
+        <item>Seleccionar tipo de producto</item>
+        <item>Tipo 1</item>
+        <item>Tipo 2</item>
+        <item>Tipo 3</item>
+        <item>Tipo 4</item>
+        <item>Tipo 5</item>
+    </string-array>
 </resources>

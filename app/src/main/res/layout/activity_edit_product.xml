@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ModuleProducts.EditProductActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="@string/strCode"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtRegisterCode"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:maxLength="4"
+                android:text="@string/strAutoCode"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="@string/strNameProduct"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtRegisterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background_edit_text"
+                android:ems="10"
+                android:hint="@string/hint_name_product"
+                android:inputType="textPersonName"
+                android:maxLength="60"
+                android:minHeight="48dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/layoutPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="2"
+                android:text="@string/strPrice"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="bottom"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtRegisterPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/green"
+                android:drawableStart="@drawable/ic_symbol_money_24"
+                android:drawableTint="@color/green"
+                android:ems="10"
+                android:textStyle="bold"
+                android:gravity="end"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/green"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <Spinner
+            android:id="@+id/spinnerRegisterType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_spinner"
+            android:contentDescription="@string/app_name"
+            android:entries="@array/spinner"
+            android:minHeight="48dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/layoutIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/strIcon"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtRegisterIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:background="@drawable/background_edit_text"
+                android:clickable="true"
+                android:maxLength="10"
+                android:text="@string/txtEmoji"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+            <EditText
+                android:id="@+id/edtRegisterIcon"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="40dp"
+                android:ems="10"
+                android:imeOptions="actionSearch"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/layoutDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="@string/strDetails"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtRegisterDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/background_edit_text"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="@string/hint_details"
+                android:maxLength="255"
+                android:minHeight="120dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <CheckBox
+            android:id="@+id/checkBoxProductEnable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/strCheckBoxProduct"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <Button
+            android:id="@+id/btnRegisterProduct"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="OnButtonClick"
+            android:text="@string/strRegisterProduct" />
+
+    </LinearLayout>
+
+</ScrollView>
