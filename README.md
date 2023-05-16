@@ -3,6 +3,7 @@
 This is a mobile aplication developed for keep control to the small business and microenterprise making records of inventories and daily sales. 
 
 The App consist in 3 modules to manage called (Products, Sales, Reports) that these are in a tab view to navigate.
+The design to app is mainly inspired in the WhatsApp design due to in a surveys was checked that the most merchants use this app, for this, the aplication was simpler to manage for them.
 
 **Products Module:**
 
